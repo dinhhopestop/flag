@@ -1,0 +1,126 @@
+#flag {
+    display: flex;
+    background-color: red;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+ #top{
+    background-color: red;
+    width: 100%;
+    height: 170px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+#top-left{
+    width: 50%;
+    height: 100%;
+    background-color: #002b6c;
+    
+}
+.top-in-left{
+    width: 100px;
+    height: 25%;
+    background-color: #002b6c;
+    text-align: center;
+    flex-direction: column;
+}
+.chan{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.le{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+/* .star{
+    background: #fff;
+    width: 155px;
+    height: 80%;
+    margin: 50%;
+} */
+
+ 
+
+
+
+#top-right{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column-reverse;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+
+} 
+
+.top-in-right{
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+   
+#bottom{
+    background-color:red;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: column wrap;
+    gap: 15%
+}
+.bottom-in{
+    width: 100%;
+    height: 17%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: column wrap;
+    align-content: space-around;
+    
+}
+
+
+
+
+/*#bottom-right{
+    background-color: #fff;
+    width: 250px;
+    height: 100%;   
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/*#bottom-in-right{
+    width: 230px;
+    height: 90%;
+    background-color: #002b6c;
+    display: flex;
+
+}
+#bottom-left{
+    background-color: #fff;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+#bottom-in-left{
+    width: 130px;
+    height: 90%;
+    background-color: #002b6c;
+    
+    
+} */ 
